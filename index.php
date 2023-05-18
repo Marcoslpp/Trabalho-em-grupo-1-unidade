@@ -23,6 +23,7 @@
         <div class="box2">
             <img src="imagens/painel.png" id="painel" alt="iamgem de pessoas trabalhando">
         </div>
+        <p>Apenas testando</p>
     </main>
 </body>
 </html>
