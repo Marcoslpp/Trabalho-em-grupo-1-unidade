@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
+    <link href="estilo/style.css" rel="stylesheet">
     <title>ToolsApp</title>
 </head>
 
@@ -54,7 +54,7 @@
     </section>
 
     <section class="section-secundario">
-            <button class="btn3"><a href="">Ver todas as ferramentas e equipamentos</a></button>
+            <button class="btn3"><a href="estoque.php">Ver todas as ferramentas e equipamentos</a></button>
     </section>
 
     <h3>Como funciona a Tools?</h3>
