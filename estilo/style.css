@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 h1{
-    font-size: 6.5rem;
+    font-size: 5vw;
     font-weight: 400;
     margin-bottom: 35px;
     cursor: default;
@@ -30,8 +30,8 @@ body{
    margin-left: 8vw;
 }
 .btn-estilo1, .btn-estilo2{
-    width: 180px;
-    height: 65px;
+    width: 12vw;
+    height: 3.5vw;
     border-radius: 200px;
     border: none;
     font-weight: 600;
@@ -50,6 +50,7 @@ h2{
     margin-bottom: 70px;
     text-align: center;
     font-size: 2.3rem;
+    cursor: default;
 }
 .img-section{
     margin: 12px;
@@ -59,6 +60,8 @@ h2{
 span{
     text-align: center;
     font-size: 1.7rem;
+    margin: 0 30px 0 0;
+    cursor: default;
 }
 .container{
     display: flex;
@@ -89,19 +92,20 @@ a{
     height: 25vh;
 }
 h3{
-    margin: 30px 0 55px 75px;
+    margin: 100px 0 55px 75px;
     font-size: 2.3rem;
+    cursor: default;
 }
 .i{
-    width: 6.5vw;
-    height: 6.5vw;
+    width: 5vw;
+    height: 5vw;
 }
 .section-terciario{
     display: flex;
     flex-direction: column;
 }
 .div-section-1{
-    margin-left: 25px;
+    margin-left: 75px;
     height: 12vw;
 }
 .div-section-2{
@@ -114,8 +118,8 @@ h3{
 }
 .btn4{
     margin-bottom: 1.1rem;
-    width: 160px;
-    height: 45px;
+    width: 175px;
+    height: 50px;
     border-radius: 20px;
     border: none;
     font-weight: 600;
@@ -128,4 +132,104 @@ h3{
     align-items: flex-end;
     justify-content: flex-start;
     height: 25vh;
+}
+/* estilização do alugar.php */
+#caixa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.principal{
+    width: 80vw;
+    height: 40vw;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+.caixa-filha1{
+    width: 32vw;
+    height: 38vw;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+.caixa-filha2{
+    width: 40vw;
+    height: 38vw;
+    padding: 25px 25px 25px 0;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#produto{
+    width: 28vw;
+}
+.nome-produto{
+    text-align: center;
+    cursor: default;
+    font-size: 1.2rem;
+}
+.caixinha{
+    display: flex;
+    justify-content: space-around;
+}
+label{
+    font-weight: 700;
+}
+.dias{
+    width: 80px;
+    height: 40px;
+    outline: none;
+    border:2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.valor{
+    color: #FF3131;
+    font-weight: 700;
+    cursor: default;
+    font-size: 1.025rem;
+}
+.descricao{
+    margin: 0 0 0 65px;
+    font-size: 1.1rem;
+}
+.bts{
+    display: flex;
+    justify-content: center;
+}
+.btn5{
+    margin-right: 12px;
+    background-color: #ABDBEF;
+    border: none;
+    font-size: 1rem;
+    padding: 10px 35px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+.btn6{
+    background-color: #FFD237;
+    border: none;
+    font-size: 1.1rem;
+    padding: 5px 55px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn5:hover{
+    transition: 0.2s;
+    background-color: #89c9e3;
+}
+.btn6:hover{
+    transition: 0.2s;
+    background-color: #e7ba1e;
 }
