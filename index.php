@@ -1,17 +1,32 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="estilo/style.css" rel="stylesheet">
-    <title>ToolsApp</title>
+    <link rel="icon" href="./imgs/inconTools.png">
+    <link href="style.css" rel="stylesheet">
+    <title>Sua caixa de ferramentas na nuvem. | Tools</title>
+     <meta name="description" content="Tools, sua caixa de 
+     ferramenta na nuvem! Precisou de ferramentas
+     e equipamentos? Peça na Tools." data-react-helmet="true">
 </head>
-
 <body>
-    <header>
-<!-- cabeçalho da página -->
+<header>
+    <nav>
+        <a class="logo" href="./"><img id="logo-img" src="imgs/inconTools.png" alt="logo da página">Tools</a>
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+</div>
+            <ul class="nav-list">
+            <li><a href="">Entrar ou cadastrar</a></li>
+            <li><a href="#FerramentasC">Ferramentas</a></li>
+            <li><a href="">Comprar</a></li>
+            <li><a href="">Sobre</a></li>
+</ul>
+</nav>
     </header>
     <main class="principal-main">
         <!-- Esse é o main principal -->
@@ -26,14 +41,11 @@
             <img src="imagens/painel.png" id="painel" alt="iamgem de pessoas trabalhando">
         </div>
     </main>
-
-
     <section id="section1">
         <div id="cabSection1">
             <h2>O que você precisa?</h2>
         </div>
-
-        <div class="container">
+        <div class="container" name="FerramentasC">
             <div class="card">
                 <img src="imagens/jardinagem.jpg" alt="Imagem de jardinagem" class="img-section">
                 <span>Jardinagem</span>
@@ -52,11 +64,10 @@
             </div>
         </div>
     </section>
-
     <section class="section-secundario">
+            <button class="btn3"><a href="">Ver todas as ferramentas e equipamentos</a></button>
             <button class="btn3"><a href="estoque.php">Ver todas as ferramentas e equipamentos</a></button>
     </section>
-
     <h3>Como funciona a Tools?</h3>
     <section class="section-terciario">
         
@@ -73,18 +84,16 @@
             <span>3.receba em seu lar</span>
         </div>
     </section>
-
     <section class="section-quaternario">
         <button class="btn4"><a href="">Alugue agora</a></button>
     </section>
-
     <footer>
         <h3>Entre em contato</h3>
         <img src="" alt="Logo do site">
-
         <div id="endereco">
             <p></p>
         </div>
     </footer>
-</body>
+    <script src="mobile-navbar.js"></script>
+</body>   
 </html>
