@@ -1,6 +1,6 @@
 <?php
 $quantDias = $_GET["quantidadedias"] ?? 0;
-
+#dados das ferramentas
 $ferramentas = [
     [
         "nome" => "Lavadora de alta pressão",
