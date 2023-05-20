@@ -6,7 +6,7 @@ $ferramentas = [
         "nome" => "Lavadora de alta pressão",
         "valor" => 5,
         "imagem" => "imagens/ferramentas/lavadora.png",
-        "id" => 100
+        "id" => 100,
         "total" => "valor" * quantDias,
     ]
     [
