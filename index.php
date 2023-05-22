@@ -4,29 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./imgs/inconTools.png">
-    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="./imagens/inconTools.png">
+    <link href="estilo/style.css" rel="stylesheet">
     <title>Sua caixa de ferramentas na nuvem. | Tools</title>
-     <meta name="description" content="Tools, sua caixa de 
-     ferramenta na nuvem! Precisou de ferramentas
-     e equipamentos? Peça na Tools." data-react-helmet="true">
+    <meta name="description" content="Tools, sua caixa de 
+    ferramenta na nuvem! Precisou de ferramentas
+    e equipamentos? Peça na Tools." data-react-helmet="true">
 </head>
 <body>
-<header>
-    <nav>
-        <a class="logo" href="./"><img id="logo-img" src="imgs/inconTools.png" alt="logo da página">Tools</a>
-        <div class="mobile-menu">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-</div>
-            <ul class="nav-list">
-            <li><a href="">Entrar ou cadastrar</a></li>
-            <li><a href="#FerramentasC">Ferramentas</a></li>
-            <li><a href="">Comprar</a></li>
-            <li><a href="">Sobre</a></li>
-</ul>
-</nav>
+    <header>
+        <nav class="nav1">
+            <div class="logomarca">
+                <img src="imagens/inconTools.png" style="width:20px;"><h4 class="logo">Tools</h4>
+            </div>
+                <div class="boxpesquisa"><!--A intenção é criar um "formulário" de pesquisa com a tag form -->
+                <input type="text" name="areapesquisa" placeholder="Pesquisar por ferramentas" class="areapesquisa">
+                <button class="btn7"><img src="imagens/lupa.png" class="lupa"></button>
+            </div>
+        </nav>
+        <nav class="nav2">
+            <img src="imagens/carrinho-de-compras.png" class="car"><p class="spa">(0)</p>
+            <div>
+                <div class="a"></div>
+                <div class="b"></div>
+                <div class="c"></div>
+            </div>
+        </nav>
+        
     </header>
     <main class="principal-main">
         <!-- Esse é o main principal -->
@@ -65,7 +69,6 @@
         </div>
     </section>
     <section class="section-secundario">
-            <button class="btn3"><a href="">Ver todas as ferramentas e equipamentos</a></button>
             <button class="btn3"><a href="estoque.php">Ver todas as ferramentas e equipamentos</a></button>
     </section>
     <h3>Como funciona a Tools?</h3>
