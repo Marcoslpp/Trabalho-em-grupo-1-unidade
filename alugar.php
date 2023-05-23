@@ -1,3 +1,12 @@
+<?php
+    require "dados.php";#importando dados.php
+
+    if(!isset($_GET["key"])){#caso o  i não seja passado atraves do metodo get, mostrar mensagem de erro
+        echo "erro! Nenhuma ferramenta foi passado";
+        header("location: index.php");#redirecionamento para o index.php
+        die; #para a aplicação aqui mesmo
+    }
+?>
 <!DOCTYPE html>
 <!-- essa é uma página de venda(aluguel) nota: Lauanda-->
 <html lang="pt-br">
