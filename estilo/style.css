@@ -125,6 +125,7 @@ h2{
     margin: 12px;
     width: 18vw;
     height: 23vw;
+    border-radius: 8px;
 }
 span{
     text-align: center;
@@ -302,3 +303,4 @@ label{
     transition: 0.2s;
     background-color: #e7ba1e;
 }
+/* aqui inicia a estilização do estoque.php */
