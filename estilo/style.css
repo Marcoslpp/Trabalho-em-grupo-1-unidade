@@ -304,4 +304,9 @@ label{
     transition: 0.2s;
     background-color: #e7ba1e;
 }
+.id{
+    text-align: end;
+    margin-right: 25px;
+    cursor: default;
+}
 /* aqui inicia a estilização do estoque.php */

@@ -28,6 +28,7 @@
             </section>
             <div class="caixa-filha2">
                 <h4 class="nome-produto"><?=$indice["nome"]?></h4>
+                <h6 class="id">id-[<?=$indice["id"]?>]</h6>
                 <div class="caixinha">
                     <div>
                         <label>Período de dias
