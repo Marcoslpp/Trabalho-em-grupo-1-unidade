@@ -22,7 +22,7 @@
         ?>
         <div class="ferramenta">
             <img src="<?=$value['imagem']?>" alt="<?=$value['nome']?>" class="img-ferramenta"><!--imagem da ferramenta e alternativa ao nome-->
-            <h4 class="nome-ferramenta"><?=$value['nome']?></h4><!--nome da ferramenta-->
+            <h4 class="nome-ferramenta"><a href="alugar.php?i=<?=$key?>"><?=$value['nome']?></a></h4><!--nome da ferramenta-->
         </div>
         <?php } ?><!--fechamento php-->
     </div>
