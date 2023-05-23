@@ -80,7 +80,7 @@
         </div>
         <div class="div-section-2">
             <img src="imagens/relogio.png" class="i" alt="Relógio">
-            <span>2.Selecioneo período de uso</span>
+            <span>2.Selecione o período de uso</span>
         </div>
         <div class="div-section-3">
             <img src="imagens/lar-doce-lar.png" class="i" alt="Casa com um coração na lateral">
