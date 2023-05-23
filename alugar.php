@@ -1,11 +1,8 @@
 <?php
     require "dados.php";#importando dados.php
 
-    if(!isset($_GET["key"])){#caso o  i não seja passado atraves do metodo get, mostrar mensagem de erro
-        echo "erro! Nenhuma ferramenta foi passado";
-        header("location: index.php");#redirecionamento para o index.php
-        die; #para a aplicação aqui mesmo
-    }
+    $i = $_GET["i"];
+    $indice = $ferramentas[$i];
 ?>
 <!DOCTYPE html>
 <!-- essa é uma página de venda(aluguel) nota: Lauanda-->
@@ -23,31 +20,36 @@
     </header>
     <main id="caixa">
         <div class="principal">
+                <?php
+                    if(isset($indice)){#se o indice for passado, mostre as informações
+                ?>
             <section class="caixa-filha1">
-                <img src="imagens/ferramentas/lavadora.png" id="produto">
+                <img src="<?=$indice["imagem"]?>" id="produto">
             </section>
-            <form action="script.php" method="get" class="caixa-filha2">
-                <h4 class="nome-produto">Lavadora de alta pressão</h4>
+            <div class="caixa-filha2">
+                <h4 class="nome-produto"><?=$indice["nome"]?></h4>
                 <div class="caixinha">
                     <div>
                         <label>Período de dias
-                            <input type="number" name="quantidadedias" min="1" class="dias" required>
+                            <input type="number" value="1" name="quantidadedias" min="1" class="dias" required>
                         </label>
                     </div>
                     <div>
-                        <h4>Total:</h4>
-                        <h5 class="valor">19.99 R$</h5>
+                        <h4>Valor diario:</h4>
+                        <h5 class="valor" ><?=$indice["valor"]?> R$</h5>
                     </div>
                 </div>
                 <p class="descricao">
                     <input type="checkbox" style="display: inline;" required> Ao clicar em alugar você está ciente do comprometimento e a política de privacidade da "ToolsApp" com seus dados
                 </p>
-            <div class="bts">
-                <button class="btn5">Adicionar ao carrinho</button>
-                <button class="btn6">Alugar</button>
+                <div class="bts">
+                    <button class="btn5">Adicionar ao carrinho</button>
+                    <button class="btn6"><a href="index.php">Alugar<a/></button>
+                </div>  
+                <?php }else{
+                    echo "<h3>ferramenta não encontrada</h3>";
+                } ?>
             </div>
-                
-        </form>
         </div>
     </main>
 </body>
