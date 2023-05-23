@@ -92,7 +92,7 @@
     </section>
     <footer>
         <h3>Entre em contato</h3>
-        <img src="" alt="Logo do site">
+        <img src="imagens/inconTools.png" alt="Logo do site">
         <div id="endereco">
             <p></p>
         </div>
