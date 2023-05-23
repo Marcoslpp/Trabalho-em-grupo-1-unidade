@@ -69,6 +69,7 @@ header{
     display: inline;
     margin-top: 3px;
     cursor: default;
+    margin-right: 15px;
 }
 .logomarca{
     display: flex;
