@@ -101,6 +101,7 @@ header{
     border: none;
     height: 38px;
     outline: none;
+    font-size: 1rem;
     font-family: norms, sans-serif;
     border-radius: 6px;
     padding-left: 8px;
@@ -481,9 +482,9 @@ footer .last{
     padding-left: 50px;
 }
 .img-ferramenta{
-    width: 20vw;
+    width: 22vw;
     background-color: white;
-    height: 22vw;
+    height: 23vw;
     padding: 15px;
     border-radius: 15px;
 }

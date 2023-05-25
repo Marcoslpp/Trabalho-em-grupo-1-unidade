@@ -61,7 +61,7 @@
                 </p>
                 <div class="bts">
                     <button class="btn5">Adicionar ao carrinho</button>
-                    <button class="btn6"><a href="index.php">Alugar<a/></button>
+                    <button class="btn6"><a href="index.php">Alugar</a></button>
                 </div>  
                 <?php }else{
                     echo "<h3>ferramenta não encontrada</h3>";
