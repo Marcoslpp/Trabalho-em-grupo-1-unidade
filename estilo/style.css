@@ -8,6 +8,7 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+
 h1{
     font-size: 5vw;
     font-weight: 400;
@@ -308,5 +309,26 @@ label{
     text-align: end;
     margin-right: 25px;
     cursor: default;
+}
+::-webkit-scrollbar
+/*tamanho da scrollbar*/
+::-webkit-scrollbar
+{
+    width: 10px;
+}
+/* Estilizando a thumb*/
+::-webkit-scrollbar-thumb
+{
+    background-color: rgb(255, 255, 255); /*Cor da thumb*/
+    border-radius: 10px; /* Raio da borda do thumb */
+}
+/* Estilizando a track (a "trilha" onde o thumb se move) */
+::-webkit-scrollbar-track {
+  background-color: #000000; /* Cor da track */
+  border-radius: 10px; /* Raio da borda da track */
+}
+/* Estilizando a track quando passar o mouse por cima */
+::-webkit-scrollbar-track:hover {
+  background-color: #686868; /* Cor da track ao passar o mouse */
 }
 /* aqui inicia a estilização do estoque.php */
