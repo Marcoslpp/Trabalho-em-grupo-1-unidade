@@ -16,7 +16,23 @@
 </head>
 <body>
     <header>
-
+        <nav class="nav1">
+                <div class="logomarca">
+                    <img src="imagens/inconTools.png" style="width:20px;"><h4 class="logo">Tools</h4>
+                </div>
+                    <div class="boxpesquisa"><!--A intenção é criar um "formulário" de pesquisa com a tag form -->
+                    <input type="text" name="areapesquisa" placeholder="Pesquisar por ferramentas" class="areapesquisa">
+                    <button class="btn7"><img src="imagens/lupa.png" class="lupa"></button>
+                </div>
+        </nav>
+        <nav class="nav2">
+            <img src="imagens/carrinho-de-compras.png" class="car"><p class="spa">(0)</p>
+            <div>
+                <div class="a"></div>
+                <div class="b"></div>
+                <div class="c"></div>
+            </div>
+        </nav>
     </header>
     <main id="caixa">
         <div class="principal">
