@@ -1,27 +1,23 @@
+/*Iplementação de fontes*/
 @font-face{
     font-family: norms;
     src: url(../fontes/norms.otf);
 }
-*{/*reset*/
+
+/*Reset*/
+*{
     margin: 0;
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
 }
 
+/*Estilizando o header*/
 h1{
     font-size: 5vw;
     font-weight: 400;
     margin-bottom: 35px;
     cursor: default;
-}
-.a,.b,.c{
-    width: 25px;
-    height: 4px;
-    cursor: pointer;
-    margin:3px 3px 3px 18px;
-    border-radius: 3px;
-    background-color: black;
 }
 header{
     display: flex;
@@ -30,6 +26,57 @@ header{
     padding: 25px;
     align-items: center;
 }
+
+/*Barra de navegação*/
+.navlinks a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+.navlinks{
+    background: #f3c93f;
+}
+.navbar .menu-active{
+    transform: translateX(0%);
+	opacity: 1;
+}
+
+.MenuIcon span{
+    display: block;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 25px;
+    height: 5px;
+    background: #000;
+    margin: 4px;
+    transition: all 0.4s ease;
+}
+
+@keyframes navLinkANime {/*Animação para span mostrando meios no site.*/
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.span-anime span:first-child {
+	transform: rotate(-135deg) translate(-20px, 6px);
+	margin-left: -18px;
+}
+
+.span-anime span:nth-child(2) {
+	opacity: 0;
+}
+
+.span-anime span:last-child {
+	transform: rotate(135deg) translate(-19px, -5px);
+	margin-left: -17px;
+}
+
 .boxpesquisa{
     align-items: center;
     height: 8vh;
@@ -85,6 +132,8 @@ header{
     width: 22px;
     cursor: pointer;
 }
+
+/*Geral do body e estilização do main e conteúdo do site*/
 body{
     background-color: #FDD447;
     font-family: norms;
@@ -265,6 +314,24 @@ label{
     font-size: 1.1rem;
     cursor: pointer;
 }
+/*estilização do botão*/
+#bt-top
+{ 
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px;
+    z-index: 9999; 
+    padding: 10px; 
+    background-color: #706901; 
+    color: #fff; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+#bt-top:hover
+{
+    background-color: #3a3600;
+}
 .valor{
     color: #FF3131;
     font-weight: 700;
@@ -310,43 +377,58 @@ label{
     margin-right: 25px;
     cursor: default;
 }
-/*estilização do botão*/
-#bt-top
-{ 
-    position: fixed; 
-    bottom: 20px; 
-    right: 20px;
-    z-index: 9999; 
-    padding: 10px; 
-    background-color: #706901; 
-    color: #fff; 
-    border: none; 
-    border-radius: 4px; 
-    cursor: pointer; 
+
+
+/*Estilização Rodapé do site*/
+
+footer{
+    background: #f3c93f;
+    width: 100%;
+    height: 500px;
 }
-#bt-top:hover
-{
-    background-color: #3a3600;
+
+footer .footer__flex{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    padding: 8%;
 }
-::-webkit-scrollbar
-/*tamanho da scrollbar*/
-::-webkit-scrollbar
-{
-    width: 10px;
+
+footer .footer__flex ul{
+    list-style: none;   
 }
-/* Estilizando a thumb*/
-::-webkit-scrollbar-thumb
-{
-    background-color: rgb(255, 255, 255); /*Cor da thumb*/
-    border-radius: 10px; /* Raio da borda do thumb */
+
+footer .footer__flex  ul h1{
+    font-size: 2rem;
 }
-/* Estilizando a track (a "trilha" onde o thumb se move) */
-::-webkit-scrollbar-track {
-  background-color: #000000; /* Cor da track */
-  border-radius: 10px; /* Raio da borda da track */
+
+footer .footer__flex  ul h2{
+    display: flex;
+    align-items: center;
 }
-/* Estilizando a track quando passar o mouse por cima */
-::-webkit-scrollbar-track:hover {
-  background-color: #686868; /* Cor da track ao passar o mouse */
+
+footer .footer__flex h2 img{
+    width: 2.2rem;
 }
+
+footer .footer__flex  ul h3{
+    font-size: 1rem;
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+footer .footer__flex ul p{
+    margin-bottom: .5rem;
+}
+
+footer .footer__flex ul .pmargin{
+    margin-top: 3rem;
+}
+
+footer .last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 /* aqui inicia a estilização do estoque.php */
