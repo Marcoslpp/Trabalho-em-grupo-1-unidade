@@ -101,6 +101,7 @@ header{
     border: none;
     height: 38px;
     outline: none;
+    font-family: norms, sans-serif;
     border-radius: 6px;
     padding-left: 8px;
 }
@@ -493,6 +494,11 @@ footer .last{
     border: none;
     border-radius: 15px;
     margin: 30px;
+    cursor: pointer;
     font-size: 1.1rem;
     background-color: white;
+}
+.vermais-btn:hover{
+    transition: 0.4s;
+    transform: scale(102%);
 }
