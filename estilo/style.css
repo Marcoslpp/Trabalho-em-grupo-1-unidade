@@ -177,15 +177,22 @@ h2{
     width: 18vw;
     height: 23vw;
     border-radius: 8px;
+    cursor: pointer;
 }
+/*se eu sobrepor o mouse na imagem ou na carta o tamanh aumentará*/
 .img-section:hover{
-    
+    transition: 0.3s;
+    transform: scale(102%);
+}
+.card:hover{
+    transition: 0.6s;
+    color: white;
 }
 span{
     text-align: center;
     font-size: 1.7rem;
     margin: 0 30px 0 0;
-    cursor: default;
+    cursor: pointer;
 }
 .container{
     display: flex;
