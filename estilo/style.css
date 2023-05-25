@@ -310,6 +310,24 @@ label{
     margin-right: 25px;
     cursor: default;
 }
+/*estilização do botão*/
+#bt-top
+{ 
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px;
+    z-index: 9999; 
+    padding: 10px; 
+    background-color: #706901; 
+    color: #fff; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+#bt-top:hover
+{
+    background-color: #3a3600;
+}
 ::-webkit-scrollbar
 /*tamanho da scrollbar*/
 ::-webkit-scrollbar
