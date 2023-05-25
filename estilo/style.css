@@ -432,3 +432,34 @@ footer .last{
 }
 
 /* aqui inicia a estilização do estoque.php */
+.container-estoque{
+    display: flex;
+    flex-wrap: wrap;
+}
+#stock{
+    font-weight: 900;
+    font-size: 30px;
+    padding-left: 50px;
+    text-decoration: underline;
+}
+.img-ferramenta{
+    width: 20vw;
+    background-color: white;
+    height: 22vw;
+    border: 2px solid black;
+}
+.ferramenta{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 2rem;
+}
+
+.nome-ferramenta{
+    padding-top: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    flex-direction: row;
+    text-align: center;
+    text-decoration: underline;
+}
