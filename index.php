@@ -90,6 +90,7 @@
     <section class="section-quaternario">
         <button class="btn4"><a href="">Alugue agora</a></button>
     </section>
+    <button><a id="bt-top" href="#">&#9650;</a></button>
     <footer>
         <h3>Entre em contato</h3>
         <img src="imagens/inconTools.png" alt="Logo do site">
