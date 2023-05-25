@@ -31,7 +31,7 @@
         </nav>
     </header>
     <main class="mainstock">
-    <h1 id="stock">Ferramentas e equipamentos</h1>
+    <h2 id="stock">Ferramentas e equipamentos</h2>
     <div class="container-estoque">
         <?php
             foreach ($ferramentas as $key => $value) {
@@ -44,11 +44,35 @@
         <?php } ?><!--fechamento php-->
     </div>
     <div class="container-button">
-        <button>Ver mais</button>
+        <button class="vermais-btn">Ver mais</button>
     </div>
     </main>
     <footer>
-
+    <div class="footer__flex">
+        <ul>
+            <li>
+                <h1>Entre em contato</h1>
+                <h2><img src="./imagens/inconTools.png" alt=""> Tools</h2>
+            </li>
+        </ul>
+        <ul>
+            <li><h3>Endereço</h3></li>
+            <li><p>Rua qualquer, 123</p></li>
+            <li><p>Qualquer cidade,</p></li>
+            <li><p>Estado, País</p></li>
+            <li><p>(00) 00000-0000</p></li>
+            <li><p class="pmargin"><b>Tools@sitetools.com.br</b></p></li>
+        </ul>
+        <ul>
+            <li><h3>Mídias Sociais</h3></li>
+            <li><p><a> Facebook</a></p></li>
+            <li><p><a>Instagram</a></p></li>
+            <li><p><a>Twitter</a></p></li>
+        </ul>
+        </div>   
+        <div class="last">
+            <p>Todos os direitos reservados à Tools<br />locação de ferramenta e equipamentos web<br /> CNPJ: 00.000.000/0000-00</p>
+        </div> 
     </footer>
 </body>
 </html>

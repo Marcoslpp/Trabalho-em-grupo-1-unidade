@@ -46,7 +46,7 @@
         <div class="box1">
             <h1>Aluguel de <br>ferramentas</h1>
             <div class="box-btn">
-                <button class="btn-estilo1">Alugue agora</button>
+                <button class="btn-estilo1"><a href="estoque.php">alugue agora</a></button>
                 <button class="btn-estilo2">Nos contate</button>
             </div>
         </div>
@@ -97,11 +97,11 @@
         </div>
     </section>
     <section class="section-quaternario">
-        <button class="btn4"><a href="">Alugue agora</a></button>
+        <button class="btn4"><a href="estoque.php">Alugue agora</a></button>
     </section>
     <a id="bt-top" href="#">&#9650;</a>
     <!--Rodapé da página/ Sobre a Empresa, Social e Contato-->
-    <footer name="SobreDados" id="#SobreDado">
+    <footer name="SobreDados">
         <div class="footer__flex">
             <ul>
                 <li>

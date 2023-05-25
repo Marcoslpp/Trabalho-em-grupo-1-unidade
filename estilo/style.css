@@ -11,7 +11,12 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-
+/*Geral do body e estilização do main e conteúdo do site*/
+body{
+    background-color: #FDD447;
+    font-family: norms;
+    overflow-x: hidden;
+}
 /*Estilizando o header*/
 h1{
     font-size: 5vw;
@@ -133,12 +138,7 @@ header{
     cursor: pointer;
 }
 
-/*Geral do body e estilização do main e conteúdo do site*/
-body{
-    background-color: #FDD447;
-    font-family: norms;
-    overflow-x: hidden;
-}
+
 .principal-main{
     height: 92vh;;
     display: flex;
@@ -179,7 +179,7 @@ h2{
     border-radius: 8px;
     cursor: pointer;
 }
-/*se eu sobrepor o mouse na imagem ou na carta o tamanh aumentará*/
+/*se eu sobrepor o mouse na imagem ou na carta o tamanho aumentará*/
 .img-section:hover{
     transition: 0.3s;
     transform: scale(102%);
@@ -394,7 +394,7 @@ label{
 
 footer{
     background: #f3c93f;
-    width: 100%;
+    width: 100vw;
     height: 500px;
 }
 
@@ -449,10 +449,13 @@ footer .last{
 /* aqui inicia a estilização do estoque.php */
 .container-estoque{
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 #stock{
     font-weight: 900;
+    margin: 30px 0 20px 10px;
+    text-align: start;
     font-size: 30px;
     padding-left: 50px;
 }
@@ -460,6 +463,7 @@ footer .last{
     width: 20vw;
     background-color: white;
     height: 22vw;
+    padding: 15px;
     border-radius: 15px;
 }
 .ferramenta{
@@ -475,4 +479,20 @@ footer .last{
     display: block;
     flex-direction: row;
     text-align: center;
+}
+/*butão de ver mais...*/
+
+.container-button{
+    display: flex;
+    width:100vw;
+    justify-content: center;
+}
+.vermais-btn{
+    width: 120px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    margin: 30px;
+    font-size: 1.1rem;
+    background-color: white;
 }
