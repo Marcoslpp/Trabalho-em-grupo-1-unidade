@@ -99,7 +99,7 @@
     <section class="section-quaternario">
         <button class="btn4"><a href="">Alugue agora</a></button>
     </section>
-    <button><a id="bt-top" href="#">&#9650;</a></button>
+    <a id="bt-top" href="#">&#9650;</a>
     <!--Rodapé da página/ Sobre a Empresa, Social e Contato-->
     <footer name="SobreDados" id="#SobreDado">
         <div class="footer__flex">
@@ -128,6 +128,5 @@
             <p>Todos os direitos reservados à Tools<br />locação de ferramenta e equipamentos web<br /> CNPJ: 00.000.000/0000-00</p>
         </div> 
     </footer>
-    <script src="mobile-navbar.js"></script>
 </body>   
 </html>

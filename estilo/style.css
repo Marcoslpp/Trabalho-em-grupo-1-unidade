@@ -178,6 +178,9 @@ h2{
     height: 23vw;
     border-radius: 8px;
 }
+.img-section:hover{
+    
+}
 span{
     text-align: center;
     font-size: 1.7rem;
@@ -319,6 +322,7 @@ label{
 { 
     position: fixed; 
     bottom: 20px; 
+    scroll-behavior: smooth;
     right: 20px;
     z-index: 9999; 
     padding: 10px; 
@@ -391,7 +395,7 @@ footer .footer__flex{
     display: flex;
     align-items: baseline;
     justify-content: space-around;
-    padding: 8%;
+    padding: 7vw;
 }
 
 footer .footer__flex ul{
@@ -414,6 +418,10 @@ footer .footer__flex h2 img{
 footer .footer__flex  ul h3{
     font-size: 1rem;
     margin: 0rem 0rem 1rem 0rem;
+}
+footer .footer__flex  ul a:hover{
+    cursor: pointer;
+    color: white;
 }
 
 footer .footer__flex ul p{
