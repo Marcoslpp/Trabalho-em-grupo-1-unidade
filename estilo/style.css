@@ -440,13 +440,12 @@ footer .last{
     font-weight: 900;
     font-size: 30px;
     padding-left: 50px;
-    text-decoration: underline;
 }
 .img-ferramenta{
     width: 20vw;
     background-color: white;
     height: 22vw;
-    border: 2px solid black;
+    border-radius: 15px;
 }
 .ferramenta{
     display: flex;
@@ -461,5 +460,4 @@ footer .last{
     display: block;
     flex-direction: row;
     text-align: center;
-    text-decoration: underline;
 }
