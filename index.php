@@ -31,12 +31,14 @@
                 <span></span>
                 <span></span>
             </div>
-            <ul class="navlinks">
+            <!--
+                <ul class="navlinks">
                 <li><a href="entrar.php">Entrar ou Cadastrar</a></li>
                 <li><a href="alugar.php">Alugar ou Comprar</a></li>
                 <li><a href="estoque.php">Estoque</a></li>
                 <li><a href="">Sobre</a></li>
             </ul>
+            -->
         </nav>
         
     </header>
