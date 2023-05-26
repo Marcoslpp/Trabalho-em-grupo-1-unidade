@@ -48,7 +48,7 @@
         <div class="box1">
             <h1>Aluguel de <br>ferramentas</h1>
             <div class="box-btn">
-                <button class="btn-estilo1"><a href="estoque.php">alugue agora</a></button>
+                <button class="btn-estilo1"><a href="estoque.php" style="font-weight: 600;">alugue agora</a></button>
                 <button class="btn-estilo2">Nos contate</button>
             </div>
         </div>
