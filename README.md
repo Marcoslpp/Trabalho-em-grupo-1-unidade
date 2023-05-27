@@ -4,7 +4,7 @@
 <hr>
 <h4>Membros do projeto:</h4>
 <ul>
-  <li>Gabrieli Vitória Matias de Souza</li>
+  <li>Gabrieli Vitória Matias de Sousa</li>
   <li>Joshua Gabriel Freitas de Jesus</li>
   <li>Lauanda Santos Nobre</li>
   <li>Marcos Paulo Pereira Leite</li>
