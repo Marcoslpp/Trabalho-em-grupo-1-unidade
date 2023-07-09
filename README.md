@@ -1,6 +1,6 @@
 <h1>Trabalho-em-grupo-1-unidade</h1>
 <p>Projeto prático da disciplina de Programação Web, esse projeto irá compor uma das três notas para a conclusão da I unidade.</p>
-<h3> Status: Em desenvolvimento ⚠️</h3>
+<h3> Status: Concluído ⚠️</h3>
 <hr>
 <h4>Membros do projeto:</h4>
 <ul>
